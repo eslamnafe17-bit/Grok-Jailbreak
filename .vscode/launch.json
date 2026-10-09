@@ -1,0 +1,18 @@
+run {
+    // استخدم IntelliSense لمعرفة المزيد عن السمات الممكنة.
+    // أشر لعرض وصف السمات الموجودة.
+    // لمزيد من المعلومات، قم بزيارة: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        run 
+
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "تشغيل كروم باستخدام المضيف المحلي",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
